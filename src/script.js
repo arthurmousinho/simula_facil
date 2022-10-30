@@ -24,13 +24,15 @@ let resultadoTotal = document.getElementById('valor-total')
 let resultadoJuros = document.getElementById('valor-juros')
 
 
-let possibilidades = [
+
+
+function calcularParcelas() {
+    
+    let possibilidades = [
     valorFinanciado.value,
     qtdParcelas.value,
     valorJuros.value
-]
-
-function calcularParcelas() {
+    ]
 
     for (let e of possibilidades) {
         if (e.length == 0){
