@@ -1,37 +1,35 @@
-let valorFinanciado = document.getElementById('valor-financiado-input')
-let qtdParcelas = document.getElementById('quantidade-parcelas-input')
-let valorJuros = document.getElementById('valor-juros-input')
-
-
-
-
-
-let descricaoParcela = document.querySelector('.valor-parcelas .descricao')
-let conteudoParcela = document.querySelector('.valor-parcelas .conteudo')
-
-let descricaoJuros = document.querySelector('.valor-juros .descricao')
-let conteudoJuros = document.querySelector('.valor-juros .conteudo')
-
-
-let descricaoTotal = document.querySelector('.valor-total .descricao')
-let conteudoTotal = document.querySelector('.valor-total .conteudo')
-
-
-
-
-
-let resultadoTotal = document.getElementById('valor-total')
-let resultadoJuros = document.getElementById('valor-juros')
-
-
-
-
 function calcularParcelas() {
-    
+
+    let valorFinanciado = document.getElementById('valor-financiado-input')
+    let qtdParcelas = document.getElementById('quantidade-parcelas-input')
+    let valorJuros = document.getElementById('valor-juros-input')
+
+
+
+
+
+    let descricaoParcela = document.querySelector('.valor-parcelas .descricao')
+    let conteudoParcela = document.querySelector('.valor-parcelas .conteudo')
+
+    let descricaoJuros = document.querySelector('.valor-juros .descricao')
+    let conteudoJuros = document.querySelector('.valor-juros .conteudo')
+
+
+    let descricaoTotal = document.querySelector('.valor-total .descricao')
+    let conteudoTotal = document.querySelector('.valor-total .conteudo')
+
+
+
+
+
+    let resultadoTotal = document.getElementById('valor-total')
+    let resultadoJuros = document.getElementById('valor-juros')
+
+
     let possibilidades = [
-    valorFinanciado.value,
-    qtdParcelas.value,
-    valorJuros.value
+        valorFinanciado.value,
+        qtdParcelas.value,
+        valorJuros.value
     ]
 
     for (let e of possibilidades) {
