@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimulaFácil</title>
+
+    <!-- -----link CSSS---- -->
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- -----Fonts---- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <h1>SimulaFácil</h1>
+    <main>
+
+        <div class="valor-financiado-container">
+            <label for="valor-financiado-input">Valor financiado:</label>
+            <input type="number" placeholder="R$" id="valor-financiado-input">
+        </div>
+
+        <div class="parcelas-juros-container">
+            <div class="quantidade-parcelas-container">
+                <label for="quantidade-parcelas-input">Quantidade de parcelas:</label>
+                <input type="number" placeholder="X" id="quantidade-parcelas-input">
+            </div>
+            <div class="valor-jurus-container">
+                <label for="valor-juros-input">Valor do juros mensal:</label>
+                <input type="number" placeholder="%" id="valor-juros-input">
+            </div>
+        </div>
+
+        <button onclick="calcularParcelas()">CALCULAR SIMULAÇÃO</button>
+        <div class="resultado">
+            <div class="valor-parcelas">
+                <p class="descricao"></p>
+                <p class="conteudo"></p>
+            </div>
+            
+
+            <div class="valor-juros">
+                <p class="descricao"></p>
+                <p class="conteudo"></p>
+            </div>
+
+
+            <div class="valor-total">
+                <p class="descricao"></p>
+                <p class="conteudo"></p>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="src/script.js"></script>
+</body>
+</html>
