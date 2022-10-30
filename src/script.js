@@ -24,7 +24,23 @@ let resultadoTotal = document.getElementById('valor-total')
 let resultadoJuros = document.getElementById('valor-juros')
 
 
+let possibilidades = [
+    valorFinanciado.value,
+    qtdParcelas.value,
+    valorJuros.value
+]
+
 function calcularParcelas() {
+
+    for (let e of possibilidades) {
+        if (e.length == 0){
+            alert("Preencha os dados requeridos")
+            location.reload()
+            break
+        } 
+    }
+
+
     console.log(valorFinanciado.value, qtdParcelas.value, valorJuros.value)
 
     let juros_formatado = valorJuros.value/100
