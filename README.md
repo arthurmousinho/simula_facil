@@ -8,6 +8,7 @@ Calculadora para compras com juros compostos
 ## Ideia 💡
 
 - A proposta do projeto é praticar o JavaScript DOM (Document Object Model) usando funções e cálculos de juros compostos 
+- No CSS dei os primeiros passos em conceitos de responsividade 
 
 ##Tecnologias ⚒️
 - HTML5
