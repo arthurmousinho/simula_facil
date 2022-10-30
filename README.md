@@ -4,6 +4,8 @@ Calculadora para compras com juros compostos
 [🔗Clique aqui para acessar](https://arthurmousinho.github.io/simula_facil/)
 
 ![print](https://user-images.githubusercontent.com/102264203/198856923-df56654c-be15-4376-b2f9-0fbd273de9cb.png)
+![print2](https://user-images.githubusercontent.com/102264203/198858207-860b2e84-7dcb-4a45-ba40-cffad3e01bbe.png)
+
 
 ## Ideia 💡
 
